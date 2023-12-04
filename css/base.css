@@ -1,0 +1,117 @@
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+	background-color: #F1F1F1;
+}
+#topnav{
+	width:100%;
+	position:fixed;
+	height:40px;
+	left:0;
+	top:0;
+	background:#F1F1F1;
+	z-index:100;
+}
+#top{
+	width:100px;
+	height:40px;
+	margin:0 auto;
+	position:relative;
+	font:12px 黑体;
+}
+#top a:hover{
+	color:white;
+	}
+#logo{
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#logo img{
+	width:30px;
+	height:30px;
+}
+
+#sbmt {
+	width: 50px;
+	height: 20px;
+	font: 12px 黑体;
+	text-align: center;	
+	transition: all 1s;
+	border-radius: 3px;
+	cursor: pointer;
+}
+#sbmt:hover {
+	background-color: #E0EFFF;
+}
+
+#bread{
+	position:absolute;
+	right:8px;
+	top:8px;
+	}
+#toplist{
+	margin-left:600px;
+	margin-top:80px;
+	
+}
+#toplist li{
+	display:inline-block;
+	margin:50px;
+	
+}
+#topnav #topform{
+	position:absolute;
+	top:50px;
+	left:400px;
+}
+#main{
+	width:1000px;
+	background:#E0EFFF;
+	height:2000px;
+	margin: 0 auto;
+}
+#banner img{
+	width:500px;
+    height:160px;
+	display: block;
+    margin: 0 auto;}
+#nav {
+	background:#80EFFF;
+	}
+#nav li{
+	display:inline-block;
+    width:20%;
+    text-align:center;
+    }
+#nav li a{
+	display:block;
+	padding:10px 0px 6px;
+	font:18px 黑体;
+	text-decoration: none;
+	color:black;
+	}
+#nav li a:hover{
+	background:#80CFFF;
+	border-bottom:4px #80AFFF solid;
+	padding-bottom:2px;
+	}
+#nav li a#current{
+	background:#80BFFF;
+}
+#footer{
+	width:100%;
+	background:#333;
+	color:white;
+	padding:10px;
+	}
+#footer p{
+	text-align:center;
+}
+.container {
+  display: flex; /* 设置为flex布局 */
+  flex-direction: column; /* 垂直排列子元素 */
+}
